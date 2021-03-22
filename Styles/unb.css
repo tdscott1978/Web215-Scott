@@ -209,7 +209,7 @@ main { background-color: #FFFFFF;
 /*scissors */
 
 #scissors {
-  background: url("/WEB215-Scott/images/unbSprite.png") no-repeat 0px -320px;
+  background: url("/Web215-Scott/images/unbSprite.png") no-repeat 0px -320px;
   width: 475px;
   height: 150px;
 }
