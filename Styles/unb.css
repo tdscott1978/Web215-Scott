@@ -209,7 +209,7 @@ main { background-color: #FFFFFF;
 /*scissors */
 
 #scissors {
-  background: url("../images/unbSprite.png") no-repeat 0px -320px;
+  background: url("/WEB215-Scott/images/unbSprite.png") no-repeat 0px -320px;
   width: 475px;
   height: 150px;
 }
@@ -217,7 +217,7 @@ main { background-color: #FFFFFF;
 /* Clippers */
 
 #clippers {
-	background: url("../images/unbSprite.png") no-repeat 0px -480px;
+	background: url("/Web215-Scott/images/unbSprite.png") no-repeat 0px -480px;
 	width: 400px;
 	height: 150px;
 }
@@ -225,12 +225,12 @@ main { background-color: #FFFFFF;
 
 /* straight razor */
 #straight {
-  background: url("../images/unbSprite.png") no-repeat 0px -640px;
+  background: url("/Web215-Scott/images/unbSprite.png") no-repeat 0px -640px;
   width: 400px;
   height: 150px;}
 
 /*shaver*/
 #razor {
-  background:url("../images/unbSprite.png") no-repeat 0 -160px;
+  background:url("/Web215-Scott/images/unbSprite.png") no-repeat 0 -160px;
   width: 350px;
   height: 150px;}
