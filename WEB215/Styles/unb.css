@@ -1,7 +1,7 @@
 @font-face { font-family: BebasNeue;
              src: url(fonts/bebasNeue.ttf);}
 @font-face { font-family: Lato;
-             src: url(fonts/Lato.ttf);}			 
+             src: url(fonts/Lato.ttf);}
 header {
    background-image:  url("../images/unb.jpg");
    height: 300px;
@@ -29,7 +29,7 @@ header {
 }
 
 /*navigation sidebar*/
-		
+
 	.sidenav {
   font-family: helvetica;
   height: 100%;
@@ -73,24 +73,26 @@ header {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}	
+}
 
 /*main*/
 
 h1 { text-align: center;
-          color: #000FFF; 
+          color: #000FFF;
 		  font-family: BebasNeue;}
-h2  {font-family: lato;}
-		  
+h2  {font-family: lato;
+     text-align: center;
+     color: #0000FF;}
+
 .hel {font-family: helvetica;
 	  font-weight: bold;}
 .babas {font-family: BebasNeue;}
 .lato {font-family: Lato;
 		font-weight: bold;}
-		  
+
 .center	{color: #FF0000;}
-		  
-main { background-color: #FFFFFF; 
+
+main { background-color: #FFFFFF;
 	   background-repeat: repeat;
        color: #000000;
 	   font-family: Lato;
@@ -98,9 +100,9 @@ main { background-color: #FFFFFF;
 	   padding-left: 100px;
 	   padding-right: 100px;
      }
-	 
+
 .footer {
-   padding-top: 5px;	
+   padding-top: 5px;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -124,16 +126,16 @@ main { background-color: #FFFFFF;
   display: table;
 }
 
-	
+
 	/* Sample Color palette */
-	
 
 
-.color1, .color2, .color3, .color4  { border:5px solid #fff; 
-                                      width:80px; 
-									  height:80px; 
-									  float: left; 
-									  margin-right:10px; 
+
+.color1, .color2, .color3, .color4  { border:5px solid #fff;
+                                      width:80px;
+									  height:80px;
+									  float: left;
+									  margin-right:10px;
 									  text-align: Center;
 									  }
 
@@ -143,9 +145,9 @@ main { background-color: #FFFFFF;
 		.color2 { background-color:#FF0000; }
 		.color3 { background-color:#C0C0C0; }
 		.color4 { background-color:#0000FF; }
-		
+
 /*navigation sidebar*/
-		
+
 	.sidenav {
   height: 100%;
   width: 0;
@@ -188,7 +190,47 @@ main { background-color: #FFFFFF;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}	
-		
-		
-		
+}
+
+/* Sprite Class */
+.specials li {
+    list-style: none;
+    padding-top: 10px;
+
+}
+.specials ul {
+  text-align: RIGHT;
+}
+
+.specials p {
+  text-align: right;
+  font-size: 40px;
+}
+/*scissors */
+
+#scissors {
+  background: url("../images/unbSprite.png") no-repeat 0px -320px;
+  width: 475px;
+  height: 150px;
+}
+
+/* Clippers */
+
+#clippers {
+	background: url("../images/unbSprite.png") no-repeat 0px -480px;
+	width: 400px;
+	height: 150px;
+}
+
+
+/* straight razor */
+#straight {
+  background: url("../images/unbSprite.png") no-repeat 0px -640px;
+  width: 400px;
+  height: 150px;}
+
+/*shaver*/
+#razor {
+  background:url("../images/unbSprite.png") no-repeat 0 -160px;
+  width: 350px;
+  height: 150px;}
